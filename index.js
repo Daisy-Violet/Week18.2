@@ -21,6 +21,6 @@ function checkAll() {
     for (let input of inputs) {
         checkValidity(input);
     }
-
-    document.getElementById('errorsInfo').innerHTML = errors.join('. \n');
+    let result = document.getElementById("errorsInfo");
+    result.innerHTML = errors.join('. \n');
 }

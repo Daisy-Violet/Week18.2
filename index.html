@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form class="wrapper" onsubmit="return false" novalidate>
+    <form class="wrapper" onsubmit="return false;" novalidate>
         <h1>Форма регистрации</h1>
         <div class="form">
             <label for="name" class="form-label">Имя</label>
@@ -21,7 +21,7 @@
         </div>
         <div class="form">
             <label for="phone" class="form-label">Телефон</label>
-            <input type="text" class="form-control" id="phone" placeholder="Ваш номер телефона">
+            <input type="text" class="form-control" id="phone" min="11" placeholder="Ваш номер телефона">
           </div>
           <div class="form">
             <label for="userName" class="form-label">Логин</label>
@@ -29,7 +29,7 @@
           </div>
           <div class="form">
             <label for="password" class="form-label">Пароль</label>
-            <input type="password" class="form-control" id="password" placeholder="Придумайте пароль">
+            <input type="password" class="form-control" id="password" min="6" placeholder="Придумайте пароль">
           </div>
           <div id="errorsInfo"></div>
         <button type="submit" onclick="checkAll();" class="btn btn-primary btn-lg">Зарегестрироваться</button>

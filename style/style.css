@@ -1,0 +1,21 @@
+.wrapper {
+    margin: 15vh auto;
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form {
+    margin: 2vh;
+}
+
+.btn {
+    margin: 4vh auto;
+    display: block;
+}
+
+#errorMessage {
+    color: red;
+}

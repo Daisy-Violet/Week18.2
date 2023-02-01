@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <form class="wrapper" onsubmit="return false" novalidate>
+        <h1>Форма регистрации</h1>
+        <div class="form">
+            <label for="name" class="form-label">Имя</label>
+            <input type="text" class="form-control" id="name" placeholder="Ваше имя">
+          </div>
+        <div class="form">
+          <label for="email" class="form-label">Почта</label>
+          <input type="email" class="form-control" id="email" placeholder="Ваш Email-адрес">
+        </div>
+        <div class="form">
+            <label for="phone" class="form-label">Телефон</label>
+            <input type="text" class="form-control" id="phone" placeholder="Ваш номер телефона">
+          </div>
+          <div class="form">
+            <label for="userName" class="form-label">Логин</label>
+            <input type="text" class="form-control" id="userName" placeholder="Придумайте логин">
+          </div>
+          <div class="form">
+            <label for="password" class="form-label">Пароль</label>
+            <input type="password" class="form-control" id="password" placeholder="Придумайте пароль">
+          </div>
+          <div id="errorsInfo"></div>
+        <button type="submit" onclick="checkAll();" class="btn btn-primary btn-lg">Зарегестрироваться</button>
+      </form>
+      <script src="./index.js"></script>
+</body>
+</html>

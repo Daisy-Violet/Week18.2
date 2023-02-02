@@ -13,23 +13,23 @@
         <h1>Форма регистрации</h1>
         <div class="form">
             <label for="name" class="form-label">Имя</label>
-            <input type="text" class="form-control" id="name" placeholder="Ваше имя">
+            <input type="text" class="form-control" id="name" placeholder="Ваше имя" required>
           </div>
         <div class="form">
           <label for="email" class="form-label">Почта</label>
-          <input type="email" class="form-control" id="email" placeholder="Ваш Email-адрес">
+          <input type="email" class="form-control" id="email" placeholder="Ваш Email-адрес" required>
         </div>
         <div class="form">
             <label for="phone" class="form-label">Телефон</label>
-            <input type="text" class="form-control" id="phone" min="11" placeholder="Ваш номер телефона">
+            <input type="text" class="form-control" id="phone" min="11" placeholder="Ваш номер телефона" required>
           </div>
           <div class="form">
             <label for="userName" class="form-label">Логин</label>
-            <input type="text" class="form-control" id="userName" placeholder="Придумайте логин">
+            <input type="text" class="form-control" id="userName" placeholder="Придумайте логин" required>
           </div>
           <div class="form">
             <label for="password" class="form-label">Пароль</label>
-            <input type="password" class="form-control" id="password" min="6" placeholder="Придумайте пароль">
+            <input type="password" class="form-control" id="password" min="6" placeholder="Придумайте пароль" required>
           </div>
           <div id="errorsInfo"></div>
         <button type="submit" onclick="checkAll();" class="btn btn-primary btn-lg">Зарегестрироваться</button>
